@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\imrtee\\XProjects\\WebAdvert.Web\\WebAdvert.Web\\WebAdvert.Web.csproj": {}
+    "c:\\Users\\imrtee\\XProjects\\WebAdvert.Web\\WebAdvert.Web\\WebAdvert.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\imrtee\\XProjects\\WebAdvert.Web\\WebAdvert.Web\\WebAdvert.Web.csproj": {
+    "c:\\Users\\imrtee\\XProjects\\WebAdvert.Web\\WebAdvert.Web\\WebAdvert.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\imrtee\\XProjects\\WebAdvert.Web\\WebAdvert.Web\\WebAdvert.Web.csproj",
+        "projectUniqueName": "c:\\Users\\imrtee\\XProjects\\WebAdvert.Web\\WebAdvert.Web\\WebAdvert.Web.csproj",
         "projectName": "WebAdvert.Web",
-        "projectPath": "C:\\Users\\imrtee\\XProjects\\WebAdvert.Web\\WebAdvert.Web\\WebAdvert.Web.csproj",
+        "projectPath": "c:\\Users\\imrtee\\XProjects\\WebAdvert.Web\\WebAdvert.Web\\WebAdvert.Web.csproj",
         "packagesPath": "C:\\Users\\imrtee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\imrtee\\XProjects\\WebAdvert.Web\\WebAdvert.Web\\obj\\",
+        "outputPath": "c:\\Users\\imrtee\\XProjects\\WebAdvert.Web\\WebAdvert.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.3.110.23, )"
+            },
             "Amazon.AspNetCore.Identity.Cognito": {
               "target": "Package",
               "version": "[1.0.4, )"
@@ -48,6 +52,18 @@
             "Amazon.Extensions.CognitoAuthentication": {
               "target": "Package",
               "version": "[1.0.3, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "WebAdvert.APIModel": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             }
           },
           "imports": [

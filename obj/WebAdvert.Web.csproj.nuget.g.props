@@ -14,8 +14,9 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Program Files\dotnet\sdk\NuGetFallbackFolder\newtonsoft.json\10.0.1</PkgNewtonsoft_Json>
-    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\imrtee\.nuget\packages\awssdk.core\3.3.100</PkgAWSSDK_Core>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\imrtee\.nuget\packages\awssdk.core\3.3.104.25</PkgAWSSDK_Core>
     <PkgAWSSDK_SecurityToken Condition=" '$(PkgAWSSDK_SecurityToken)' == '' ">C:\Users\imrtee\.nuget\packages\awssdk.securitytoken\3.3.100</PkgAWSSDK_SecurityToken>
+    <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">C:\Users\imrtee\.nuget\packages\awssdk.s3\3.3.110.23</PkgAWSSDK_S3>
     <PkgAWSSDK_CognitoIdentityProvider Condition=" '$(PkgAWSSDK_CognitoIdentityProvider)' == '' ">C:\Users\imrtee\.nuget\packages\awssdk.cognitoidentityprovider\3.3.100</PkgAWSSDK_CognitoIdentityProvider>
     <PkgAWSSDK_CognitoIdentity Condition=" '$(PkgAWSSDK_CognitoIdentity)' == '' ">C:\Users\imrtee\.nuget\packages\awssdk.cognitoidentity\3.3.100</PkgAWSSDK_CognitoIdentity>
   </PropertyGroup>
